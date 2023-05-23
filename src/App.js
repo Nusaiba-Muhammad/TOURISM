@@ -6,6 +6,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Card from "./Card";
 import Services from "./components/Services";
 import Destination from "./components/Destination";
+import { Package } from "react-feather";
+import Packages from "./components/Packages";
 
 function App() {
   AOS.init();
@@ -16,6 +18,7 @@ function App() {
       <center>
         <Destination />
       </center>
+      <Packages/>
     </div>
   );
 }
