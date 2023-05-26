@@ -8,7 +8,7 @@ import package3 from "../img/package-3.jpg";
 export default function Packages() {
   return (
     <div>
-      <div className="destination_header">
+      <div className="package_header">
         <span>packages</span>
         <h1>Our Packages</h1>
       </div>

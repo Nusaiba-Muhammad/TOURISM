@@ -43,7 +43,7 @@ export default function Header() {
             <div className="nav">
               <div className="lnav">
                 <i class="fa-sharp fa-solid fa-location-dot nav_icon"></i>
-                <span className="nav_span">TourNiger</span>
+                <span className="nav_span">TourNaija</span>
               </div>
               <div className="rnav">
                 <ul>
