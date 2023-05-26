@@ -17,29 +17,29 @@ export default function Destination() {
         <h1>Our Destination</h1>
       </div>
       <Row className="center">
-        <Col md={2}></Col>
-        <Col md={8}>
-          <div class="container" data-aos="fade-up" data-aos-offset="200">
-            <div class="img-container-grid">
-              <div class="smallsquare">
+        <Col md={1}></Col>
+        <Col md={10}>
+          <div className="container" data-aos="fade-up" data-aos-offset="200">
+            <div className="img-container-grid">
+              <div className="smallsquare">
                 <img
                   src={des2}
-                  class="img-grid-c"
+                  className="img-grid-c"
                   alt="grid"
                   data-aos="zoom-in"
                   data-aos-offset="200"
                 />
               </div>
-              <div class="smallsquare">
+              <div className="smallsquare">
                 <img
                   src="https://media.istockphoto.com/photos/view-of-sydney-harbour-australia-picture-id535455441?k=6&m=535455441&s=612x612&w=0&h=jVkW0bOqvffn2SzvUdncgkwHGScJRzak0oaQGij__h8="
-                  class="img-grid-c"
+                  className="img-grid-c"
                   alt="grid"
                   data-aos="zoom-in-right"
                   data-aos-offset="200"
                 />
               </div>
-              <div class="h_rectangle">
+              <div className="h_rectangle">
                 <img
                   src={pic}
                   alt="grid"
@@ -49,44 +49,44 @@ export default function Destination() {
                 />
               </div>
 
-              <div class="bigsquare">
+              <div className="bigsquare">
                 <img
                   src={photo}
-                  class="img-grid-c"
+                  className="img-grid-c"
                   alt="grid"
                   data-aos="zoom-in-up"
                   data-aos-offset="200"
                 />
               </div>
-              <div class="bigsquare_blank">
-                <div class="inner_square">
+              <div className="bigsquare_blank">
+                <div className="inner_square">
                   <img
                     src={des3}
-                    class="img-grid-c"
+                    className="img-grid-c"
                     alt="grid"
                     data-aos="zoom-in-down"
                     data-aos-offset="200"
                   />
                 </div>
-                <div class="inner_square">
+                <div className="inner_square">
                   <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR-oo8-jn28YVesncpNZ4cBHocvHtKLwzmpVDbq1k7KNa5jEiL"
-                    class="img-grid-c"
+                    className="img-grid-c"
                     alt="grid"
                   />
                 </div>
-                <div class="inner_square">
+                <div className="inner_square">
                   <img
                     src="https://media.cntraveller.in/wp-content/uploads/2018/10/GettyImages-990972132-866x487.jpg"
-                    class="img-grid-c"
+                    className="img-grid-c"
                     alt="grid"
                     data-aos="zoom-in-down"
                   />
                 </div>
-                <div class="inner_square">
+                <div className="inner_square">
                   <img
                     src="https://www.w3schools.com/howto/img_snow.jpg"
-                    class="img-grid-c"
+                    className="img-grid-c"
                     alt="grid"
                     data-aos="zoom-in-up"
                   />
@@ -95,7 +95,7 @@ export default function Destination() {
             </div>
           </div>
         </Col>
-        <Col md={2}></Col>
+        <Col md={1}></Col>
       </Row>
     </div>
   );

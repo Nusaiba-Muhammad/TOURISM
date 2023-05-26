@@ -8,6 +8,9 @@ import Services from "./components/Services";
 import Destination from "./components/Destination";
 import { Package } from "react-feather";
 import Packages from "./components/Packages";
+import Process from "./components/Process";
+import TourGuide from "./components/TourGuide";
+import Footer from "./components/Footer";
 
 function App() {
   AOS.init();
@@ -15,10 +18,13 @@ function App() {
     <div className="App">
       <Card />
       <Services />
-      <center>
-        <Destination />
-      </center>
-      <Packages/>
+
+      <Destination />
+
+      <Packages />
+      <Process />
+      <TourGuide />
+      <Footer/>
     </div>
   );
 }
