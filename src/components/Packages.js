@@ -8,11 +8,11 @@ import package3 from "../img/package-3.jpg";
 export default function Packages() {
   return (
     <div>
+      <div className="destination_header">
+        <span>packages</span>
+        <h1>Our Packages</h1>
+      </div>
       <Row>
-        <div className="destination_header">
-          <span>packages</span>
-          <h1>Our Packages</h1>
-        </div>
         <Col md={1}></Col>
         <Col md={10}>
           <Row>
@@ -155,8 +155,8 @@ export default function Packages() {
         <Col md={1}></Col>
       </Row>
       <div className="con-body">
-        <div className="contact-form">
-          <div className="first-container">
+        <div className="contact-form row">
+          <div className="col-md-6 first-container">
             <div className="info-container">
               <h3 className="info-h3">Booking</h3>
               <h1 className="info-h1">Online Booking</h1>
@@ -178,10 +178,10 @@ export default function Packages() {
               <button className="btn_div">READ MORE</button>
             </div>
           </div>
-          <div className="second-container">
+          <div className="second-container col-md-6">
             <h2>Book A Tour</h2>
             <form>
-              <div className="form mb-5 ">
+              <div className="form mb-5">
                 {/* <label for="name-input">Tell us your name*</label> */}
                 <input
                   id="name-input"
@@ -217,7 +217,7 @@ export default function Packages() {
                 ></textarea>
               </div>
               <div className="btn form">
-                <button placeholder="button" className="btn">
+                <button placeholder="button" className="btn_div">
                   Send message
                 </button>
               </div>

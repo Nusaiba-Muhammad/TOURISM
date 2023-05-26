@@ -1,4 +1,5 @@
 import React from "react";
+import "./Footer.css";
 import { Row, Col } from "reactstrap";
 export default function Footer() {
   return (
@@ -6,70 +7,80 @@ export default function Footer() {
       <div className="foot_main">
         <Row className="foot">
           <Col md={2}></Col>
-          <Col md={8}>
+          <Col md={8} className="p-5">
             <Row>
               <Col md={4}>
-                <h5>Company</h5>
+                <h5 className="h5">Company</h5>
                 <p className="footer-p">
                   <a>
-                    <i className="fa-solid fa-chevron-right"></i> About us
+                    <i className="fa-solid fa-chevron-right foot_icon"></i>{" "}
+                    About us
                   </a>
                 </p>
                 <p className="footer-p">
                   <a>
-                    <i className="fa-solid fa-chevron-right"></i> Contact us
+                    <i className="fa-solid fa-chevron-right foot_icon"></i>{" "}
+                    Contact us
                   </a>
                 </p>
                 <p className="footer-p">
                   <a>
-                    <i className="fa-solid fa-chevron-right"></i> Privacy Policy
+                    <i className="fa-solid fa-chevron-right foot_icon"></i>{" "}
+                    Privacy Policy
                   </a>
                 </p>
                 <p className="footer-p">
                   <a>
-                    <i className="fa-solid fa-chevron-right"></i> Terms &
-                    Conditions
+                    <i className="fa-solid fa-chevron-right foot_icon"></i>{" "}
+                    Terms & Conditions
                   </a>
                 </p>
                 <p className="footer-p">
                   <a>
-                    <i className="fa-solid fa-chevron-right"></i> FAQs & Help
+                    <i className="fa-solid fa-chevron-right foot_icon"></i> FAQs
+                    & Help
                   </a>
                 </p>
               </Col>
 
               <Col md={4}>
-                <h5> Contact</h5>
+                <h5 className="h5"> Contact</h5>
                 <p className="footer-p">
-                  <i className="fa-solid fa-location-dot"></i> No 1 Sani Abacha
-                  Way Kano, Nigeria
+                  <i className="fa-solid fa-location-dot foot_icon"></i> No 1
+                  Sani Abacha Way Kano, Nigeria
                 </p>
                 <p className="footer-p">
-                  <i className="fa-solid fa-phone"></i> +234 809 928 4720
+                  <i className="fa-solid fa-phone foot_icon"></i> +234 809 928
+                  4720
                 </p>
                 <p className="footer-p">
-                  <i className="fa-solid fa-envelope"></i> tournaija@gmail.com
+                  <i className="fa-solid fa-envelope foot_icon"></i>{" "}
+                  tournaija@gmail.com
                 </p>
-                <div className="icon-circle">
-                  <i className="fa-brands fa-twitter"></i>
-                </div>
-                <div className="icon-circle">
-                  <i className="fa-brands fa-facebook"></i>
-                </div>
-                <div className="icon-circle">
-                  <i className="fa-brands fa-youtube"></i>
-                </div>
-                <div className="icon-circle">
-                  <i className="fa-brands fa-linkedin"></i>
-                </div>
+                {/* <div className="footer_icon"> */}
+
+                <i className="fa-brands fa-twitter iii"></i>
+
+                <i class="fa-brands fa-facebook-f iii"></i>
+
+                <i className="fa-brands fa-youtube iii"></i>
+
+                <i class="fa-brands fa-linkedin-in iii"></i>
+
+                <i class="fa-brands fa-linkedin-in iii"></i>
+
+                {/* </div> */}
               </Col>
 
-
               <Col md={4}>
-                <h5>Newsletter</h5>
+                <h5 className="h5">Newsletter</h5>
                 <div className="newsletter-form">
-                  <input type="email" placeholder="Your email" />
-                  <button className="signup-button">Sign up</button>
+                  <input
+                    type="email"
+                    placeholder="Your email"
+                    className="foot_input"
+                  />
+                  <button className="signup-button foot_button">Sign up</button>
                 </div>
               </Col>
             </Row>
@@ -78,33 +89,37 @@ export default function Footer() {
           <Col md={2}></Col>
         </Row>
         <hr />
-        <div className="col-md-1"></div>
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-md-12">
-              <div className="footer-links">
-                <a className="footer-link" href="#">
-                  Home
-                </a>
-                <a className="footer-link" href="#">
-                  Cookies
-                </a>
-                <a className="footer-link" href="#">
-                  Help
-                </a>
-                <a className="footer-link" href="#">
-                  FAQ
-                </a>
-              </div>
+
+        <Row>
+          <Col></Col>
+          <Col md={8} className="d-flex justify-content-between">
+            <div className="site">
+         
+                <i className="fa-solid fa-copyright mx-2 mt-1 foot_icon"></i>
+       
+                <p>Your Site Name. Alright Reserved. Designed By HTML</p>
+            
             </div>
-            <div className="site-name">
-              <i className="fa-solid fa-copyright"></i>
+            <div className="footer-links">
+              <a className="footer-link" href="#">
+                Home
+              </a>
+              <div className="line"></div>
+              <a className="footer-link" href="#">
+                Cookies
+              </a>
+              <div className="line"></div>
+              <a className="footer-link" href="#">
+                Help
+              </a>
+              <div className="line"></div>
+              <a className="footer-link" href="#">
+                FAQ
+              </a>
             </div>
-            <div className="site-text">
-              <p>Your Site Name. Alright Reserved. Designed By HTML</p>
-            </div>
-          </div>
-        </div>
+          </Col>
+          <Col></Col>
+        </Row>
       </div>
     </div>
   );

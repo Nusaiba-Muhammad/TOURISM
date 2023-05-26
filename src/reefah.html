@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pp</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin: 0;
+        }
+        .one{
+            
+            position: relative;
+            background-color: #000000;
+        }
+        .one::before{
+            content: ' ';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            opacity: 0.3;
+            background-image: url(IMG-20230516-WA0020.jpg);
+            background-position:center;
+
+
+        }
+        .one-on-one{
+            position: relative;
+            width: 100%;
+            height: 580px;
+        }
+        
+        .top{
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            font-weight: 500;
+        }
+        .topright{
+            margin: 0px 45px 0px 0px;
+    
+        }
+        .topright a{
+            border: 1px solid rgb(255, 255, 255);
+            display: inline-block;
+            border-radius: 50%;
+            margin: 5px;
+            padding: 3px 5px;
+            text-align: center;
+        }
+        .topleft{
+            margin: 0px 0px 0px 20px ;
+            padding: 10px;
+        }
+        .topleft a{
+            text-decoration: none;
+            color: #fff;
+            padding: 0px 5px;
+        }
+        .fpage{
+            margin-top: 0;
+            height: 700px;
+            text-align: center;
+            color: #fff;
+            background-color: transparent;
+            font-weight: 800;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .nav{
+            border-bottom: 1px solid rgb(108, 108, 108);
+            display: flex;
+            justify-content: space-between;
+        }
+        .lnav{
+            font-size: 25px;
+            color:  #86B817 ;
+            margin: 18px 0px 18px 30px ;
+            font-weight:900;
+            font-size:40px;
+        }
+        .rnav{
+            margin: 0px 30px 0px 0px;
+            font-weight: 300;
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: transparent;
+        }
+        li{
+            float: left;
+        }
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 40px 0px;
+            margin: 0px 10px;
+            text-decoration: none;
+        }
+        li a.focus{
+            color: #86B817;
+            border-bottom: 1px solid  #86B817;
+        }
+    
+        li a:hover:not(.active){
+            color: #86B817;
+            border-bottom: 1px solid  #86B817;
+        }
+        li a.active{
+            background-color: #86B817;
+            border-radius: 25px;
+            padding: 10px 20px;
+            margin: 30px;
+        }
+        .ftext{
+            padding: 80px;
+        }
+        .ftext h1{
+            font-size: 50px;
+        }
+        .mainbutton{
+            display: flex;
+            justify-content: space-between;
+            width: 600px;
+            background-color: #ffffff;
+            padding: 5px;
+            margin: 5px auto;
+            border-radius: 25px;
+            box-sizing: border-box;
+           
+        }
+        #inputation{
+            position: relative;
+            padding: 10px;
+            width: 500px;
+            border-radius: 20px;
+            border: none;
+            background-color:transparent;
+            outline: none;
+        }
+    
+        #searchbar{
+            border-radius: 20px;
+            padding: 10px 20px;
+            border: none;
+            color: rgb(255, 255, 255);
+            background-color:  #86B817;
+            font-weight: 600;
+            margin: 5px;
+            box-sizing: border-box;
+        }
+        #searchbar:hover{
+            cursor: pointer;
+            background-color: #89bd19;
+        }
+        #searchbar:focus{
+            border: 3px solid #75a115;
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        <div class="one-on-one">
+            <div class="top">
+                <div class="topleft">
+                    <a href=""><img src="./icon/icons8_marker_26px.png" alt="" width="18px" >123 Street, New York, USA</a> 
+                    <a href=""><img src="./icon/icons8_phone_24px.png" alt="" width="18px"> +0123456789</a>
+                    <a href=""><img src="./icon/icons8_new_post_30px.png" alt="" width="18px"> mail@domain.com</a>
+                </div>
+                <div class="topright">
+                    <a href=""><img src="./icon/icons8_twitter_squared_24px_1.png" alt="" width="15px" height="13px"></a>
+                    <a href=""><img src="./icon/icons8_facebook_f_24px.png"alt="" width="15px" height="13px"></a>
+                    <a href=""><img src="./icon/icons8_linkedin_2_25px_4.png" alt="" width="15px" height="13px"></a>
+                    <a href=""><img src="./icon/icons8_instagram_24px.png" alt="" width="15px" height="13px">
+                    </a>
+                    <a href=""><img src="./icon/icons8_play_button_24px_5.png" alt="" width="15px"  height="13px"></a>
+                </div>
+            </div>
+            <div class="fpage">
+                <div class="nav">
+                    <div class="lnav">
+                        <img src="./icon/icons8_marker_26px_1.png" alt=""  width="50px">TourNiger
+                    </div>
+                    <div class="rnav">
+                        <ul>
+                            <li><a href="./pp.html" class="focus">Home</a></li>
+                            <li><a href="./pp_about.html">About</a></li>
+                            <li><a href="./pp_services.html">Services</a></li>
+                            <li><a href="./pp_packages.html">Packages</a></li>
+                            <li><a href="./pp_page.html">Page</a></li>
+                            <li><a href="./pp_contact.html">Contact</a></li>
+                            <li><a href="pp_register.html" class="active">Register</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="ftext">
+                    <h1>
+                        Enjoy Your Vacation With Us
+                    </h1>
+                    <p>
+                        giving u verieties of option that suit your vacation with loved once 
+                    </p>
+                    <div class="mainbutton">
+                        <input placeholder="Eg.Thailand" id="inputation">
+                         </input>
+                        <button id="searchbar">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

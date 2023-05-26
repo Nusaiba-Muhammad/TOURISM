@@ -1,11 +1,10 @@
 import React from "react";
-import { Row, Col, Button } from "reactstrap";
+import { Row, Col } from "reactstrap";
 import image from "./img/about.jpg";
 
 export default function Card() {
   return (
-    <div>
-      <h1>HELLO WORLD</h1>
+    <div className="mt-5 pt-5">
       <Row>
         <Col md={2}></Col>
         <Col md={4}>
@@ -17,14 +16,23 @@ export default function Card() {
             Welcome to <span className="tourist">Tourist</span>
           </h1>
           <p className="paragraph mb-4">
-            Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu
-            diam amet diam et eos. Clita erat ipsum et lorem et sit. Tempor erat
-            elitr rebum at clita. Diam dolor diam ipsum sit.
+            TOURNIJA CONCEPT LTD was founded in 2023 as a company with interest
+            in Transport, Tourism and Hospitality, Trading, Catering services,
+            Real estate development and Oil and Gas. Over the months we have
+            divested into different sectors: Transport, Travel & Tourism (Mass
+            Transit) Laundry and Dry cleaning services, Travel agency, Hotels,
+            Computer Centre/ ICT.
           </p>
+
           <p className="paragraph mb-4">
-            {" "}
-            Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed
-            stet lorem sit clita duo justo magna dolore erat amet
+            We are one of the emerging leading companies in Nigeria. In the
+            beginning we wanted to create a service concept different from
+            others, our transport and travel agency would provide complete
+            travel solutions for clients, and an agency which would do more than
+            just take clients from Point-A to Point-B and which will provide
+            luxury whilst still being competitively priced. For us, the most
+            important thing is to provide and ensure client with good treatment,
+            professionalism and promptness.
           </p>
           <div className="row  mb-4">
             <div className="d-flex justify-content-between ">

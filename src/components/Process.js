@@ -3,7 +3,7 @@ import { Row, Col, Card } from "reactstrap";
 
 export default function Process() {
   return (
-    <div>
+    <div className="let-be-alone">
       <div className="destination_header">
         <span>process</span>
         <h1>3 Easy Steps</h1>
@@ -26,9 +26,10 @@ export default function Process() {
                     <i className="fa fa-globe icon "></i>
                   </div>
                   <p>
-                    Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                    Aliqu diam amet diam et eos. Clita erat ipsum et lorem et
-                    sit. Tempor erat elitr rebum at clita.{" "}
+                    Aim for efficient services through constant development
+                    towards world-class standards. The priorities are safety,
+                    convenience, cleanliness, modernity and punctuality on each
+                    and every client service.
                   </p>
                 </Card>
               </Col>
@@ -44,9 +45,11 @@ export default function Process() {
                     <i class="fa-sharp fa-solid fa-dollar-sign icon"></i>
                   </div>
                   <p>
-                    Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                    Aliqu diam amet diam et eos. Clita erat ipsum et lorem et
-                    sit. Tempor erat elitr rebum at clita.
+                    Implement a system of management that is both efficient
+                    and streamlined. Capitalize on the potential of employees,
+                    by building teamwork. Reduce waste and non-productivity, in
+                    the interest of quality management and to compete with the
+                    private sector.
                   </p>
                 </Card>
               </Col>
@@ -62,9 +65,9 @@ export default function Process() {
                     <i className="fa fa-plane icon"></i>
                   </div>
                   <p>
-                    Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                    Aliqu diam amet diam et eos. Clita erat ipsum et lorem et
-                    sit. Tempor erat elitr rebum at clita.{" "}
+                    Create customer satisfaction and meet client’s needs. The
+                    service network must allow for ease of connections and
+                    uninterrupted services delivery.
                   </p>
                 </Card>
               </Col>

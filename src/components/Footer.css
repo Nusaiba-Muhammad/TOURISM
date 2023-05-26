@@ -1,12 +1,76 @@
-/* .foot {
+.foot_main {
   background-color: black;
-  margin: 0;
-  color: white;
-  display: flex;
-  padding: 20px;
+  color: aliceblue;
 }
-
+.iii {
+  color: aliceblue;
+  /* background-color: black; */
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 50%;
+  border: 1px solid aliceblue;
+  margin-right: 0.8rem;
+  margin-top: 0.8rem;
+}
+.foot_icon {
+  font-size: 20px;
+  margin-right: 0.5rem;
+  margin-left: 0.8rem;
+}
 .footer-p {
+  font-size: 18px;
+}
+.h5 {
+  font-size: 30px;
+  margin-left: 0.8rem;
+  margin-bottom: 1rem;
+}
+.newsletter-form {
+  margin-left: 0.8rem;
+}
+.foot_input {
+  width: 100%;
+  height: 100%;
+  padding: 1.4rem 6rem;
+  position: relative;
+  text-align: left;
+}
+.foot_button {
+  padding: 0.8rem 2rem;
+  position: absolute;
+  right: 25rem;
+
+  margin-top: 8px;
+  background-color: #98c33a;
+  color: aliceblue;
+  border: none;
+}
+.foot_footer {
+  display: flex;
+}
+.footer-links{
+    display: flex
+}
+.footer-link {
+  padding: 18px;
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 17px;
+}
+.footer-link:hover {
+  color: aliceblue;
+}
+.line {
+  border-left: 2px solid #98c33a;
+  height: 50px;
+}
+.site{
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+}
+/* .footer-p {
   margin: 10px;
   margin-left: -1px;
   display: flex;
@@ -86,4 +150,4 @@ p {
   display: flex;
   align-items: center;
   gap: 15px;
-} */
+}  */

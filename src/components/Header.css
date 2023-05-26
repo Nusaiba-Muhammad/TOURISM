@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+}
+.one {
+  position: relative;
+  background-color: #000000;
+}
+.one::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0.3;
+  background-image: url("../img/bg-hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.one-on-one {
+  position: relative;
+  width: 100%;
+  height: 800px;
+}
+
+.top {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+}
+.topright {
+  margin: 0px 45px 5px 0px;
+  padding: 3px 5px;
+}
+.topright a {
+
+  /*  
+  padding: 3px 5px; */
+  text-align: center;
+}
+.topleft {
+  margin: 5px 0px 0px 20px;
+  padding: 10px;
+}
+.topleft a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0px 5px;
+ 
+}
+.fpage {
+  margin-top: 0;
+  height: 700px;
+  text-align: center;
+  color: #fff;
+  background-color: transparent;
+  font-weight: 800;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.nav {
+  border-bottom: 1px solid rgb(108, 108, 108);
+  display: flex;
+  justify-content: space-between;
+}
+.nav_icon{
+    font-size: 50px;
+}
+.lnav {
+  font-size: 25px;
+  color: #86b817;
+  margin: 18px 0px 18px 30px;
+  font-weight: 900;
+  font-size: 40px;
+
+}
+.nav_span{
+    padding: 1rem;
+    
+}
+.rnav {
+  margin: 0px 30px 0px 0px;
+  font-weight: 300;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 40px 0px;
+  margin: 0px 10px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+li a.focus {
+  color: #86b817;
+  border-bottom: 1px solid #86b817;
+}
+
+li a:hover:not(.active) {
+  color: #86b817;
+  border-bottom: 1px solid #86b817;
+}
+li a.active {
+  background-color: #86b817;
+  border-radius: 25px;
+  padding: 10px 20px;
+  margin: 30px;
+}
+.active:hover{
+    color: aliceblue;
+}
+.ftext {
+  padding: 80px;
+}
+.ftext h1 {
+  font-size: 50px;
+}
+.mainbutton {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  background-color: #ffffff;
+  padding: 5px;
+  margin: 5px auto;
+  border-radius: 25px;
+  box-sizing: border-box;
+
+}
+
+#inputation {
+  position: relative;
+  padding: 10px;
+  width: 500px;
+  border-radius: 20px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+#searchbar {
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: #86b817;
+  font-weight: 600;
+  margin: 5px;
+  box-sizing: border-box;
+}
+#searchbar:hover {
+  cursor: pointer;
+  background-color: #89bd19;
+}
+#searchbar:focus {
+  border: 3px solid #75a115;
+  margin: 2px;
+}

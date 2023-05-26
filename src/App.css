@@ -69,7 +69,9 @@ i .fa-solid .fa-arrow-right {
 }
 
 /* ******************************************************* */
-
+.let-be-alone {
+  position: initial;
+}
 .destination_header {
   text-align: center;
   padding: 5rem 3rem;
