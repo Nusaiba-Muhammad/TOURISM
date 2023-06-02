@@ -1,5 +1,4 @@
 import React from "react";
-import { Row, Col } from "reactstrap";
 import "../Packages.css";
 
 export default function Packages() {

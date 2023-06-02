@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import { Row, Col, Card, CardTitle, CardText } from "reactstrap";
+
 
 import "../App.css";
 // import "../style.css";

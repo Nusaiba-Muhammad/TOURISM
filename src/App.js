@@ -10,9 +10,9 @@ import Packages from "./components/Packages";
 import Process from "./components/Process";
 import TourGuide from "./components/TourGuide";
 import Footer from "./components/Footer";
-import Header from "./components/Header";
+// import Header from "./components/Header";
 import MV from "./components/MV";
-import Main from "./components/Main";
+// import Main from "./components/Main";
 import Mission from "./components/Mission";
 import Top from "./components/Top";
 

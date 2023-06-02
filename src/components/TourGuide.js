@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import { Row, Col, CardBody, CardFooter, Card } from "reactstrap";
+
 
 export default function TourGuide() {
   return (
