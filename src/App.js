@@ -6,18 +6,26 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Card from "./Card";
 import Services from "./components/Services";
 import Destination from "./components/Destination";
-import { Package } from "react-feather";
 import Packages from "./components/Packages";
 import Process from "./components/Process";
 import TourGuide from "./components/TourGuide";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import MV from "./components/MV";
+import Main from "./components/Main";
+import Mission from "./components/Mission";
+import Top from "./components/Top";
 
 function App() {
   AOS.init();
   return (
     <div className="App">
-      <Header/>
+      {/* <Main/> */}
+      {/* <Header /> */}
+      <Top/>
+      <Mission />
+      <MV />
+
       <Card />
       <Services />
 
@@ -26,7 +34,7 @@ function App() {
       <Packages />
       <Process />
       <TourGuide />
-      <Footer/>
+      <Footer />
     </div>
   );
 }

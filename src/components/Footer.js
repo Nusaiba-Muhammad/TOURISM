@@ -1,6 +1,8 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import "./Footer.css";
 import { Row, Col } from "reactstrap";
+import "./Footer.css";
+
 export default function Footer() {
   return (
     <div>
@@ -59,15 +61,23 @@ export default function Footer() {
                 </p>
                 {/* <div className="footer_icon"> */}
 
-                <i className="fa-brands fa-twitter iii"></i>
+                <a href="https://twitter.com/tournaijatn">
+                  {" "}
+                  <i className="fa-brands fa-twitter iii"></i>
+                </a>
 
-                <i class="fa-brands fa-facebook-f iii"></i>
+                <a href="https://web.facebook.com/tournaijatn">
+                  {" "}
+                  <i className="fa-brands fa-facebook-f iii"></i>
+                </a>
 
                 <i className="fa-brands fa-youtube iii"></i>
 
-                <i class="fa-brands fa-linkedin-in iii"></i>
+                <a href="https://www.instagram.com/tournaijatn/">
+                  <i className="fa-brands fa-instagram iii"></i>
+                </a>
 
-                <i class="fa-brands fa-linkedin-in iii"></i>
+                <i className="fa-brands fa-linkedin-in iii"></i>
 
                 {/* </div> */}
               </Col>
@@ -94,11 +104,9 @@ export default function Footer() {
           <Col></Col>
           <Col md={8} className="d-flex justify-content-between">
             <div className="site">
-         
-                <i className="fa-solid fa-copyright mx-2 mt-1 foot_icon"></i>
-       
-                <p>Your Site Name. Alright Reserved. Designed By HTML</p>
-            
+              <i className="fa-solid fa-copyright mx-2 mt-1 foot_icon"></i>
+
+              <p>Your Site Name. Alright Reserved. Designed By HTML</p>
             </div>
             <div className="footer-links">
               <a className="footer-link" href="#">
